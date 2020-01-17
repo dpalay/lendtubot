@@ -14,5 +14,12 @@ switch (process.env.NODE_ENV) {
         path = `${__dirname}/../../.env.development`;
 }
 dotenv.config({ path: path });
-exports.TEST = process.env.TEST;
+exports.FIREBASE = {
+    API: process.env.API,
+    AUTHDOMAIN: process.env.AUTHDOMAIN,
+    DATABASEURL: process.env.DATABASEURL,
+    PROJECTID: process.env.PROJECTID,
+    STORAGEBUCKET: process.env.STORAGEBUCKET,
+    MESSAGINGSENDERID: process.env.MESSAGINGSENDERID
+};
 //# sourceMappingURL=config.js.map
