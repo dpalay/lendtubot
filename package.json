@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/dpalay/lendtubot/issues"
   },
-  "homepage": "https://github.com/dpalay/lendtubot#readme"
+  "homepage": "https://github.com/dpalay/lendtubot#readme",
+  "dependencies": {
+    "@types/node": "^13.1.7",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0"
+  }
 }
